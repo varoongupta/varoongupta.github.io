@@ -27,12 +27,12 @@ h2 {
 }
 
 .wrapper {
-    text-align: center;
+    text-align: left;
 }
 
 .wrapper {
     vertical-align: middle;
-    margin: 0 auto;
+    margin: 55rem auto;
     padding-top: 200px;
 }
 
