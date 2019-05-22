@@ -23,16 +23,18 @@ h2 {
 }
 
 .wrapper h1 {
-    text-align: center;
+    text-align: center left;
+    margin-left: 20rem;
 }
 
 .wrapper {
-    text-align: left;
+    text-align: center left;
+    margin-left: 55rem;
 }
 
 .wrapper {
     vertical-align: middle;
-    margin: 55rem auto;
+    margin: 0;
     padding-top: 200px;
 }
 
