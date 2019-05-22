@@ -10,7 +10,7 @@ body, html {
 body {
     font-family: 'Roboto Condensed', sans-serif;
     color: #26334c;
-    overflow: auto;
+    overflow: hidden;
 }
 
 h2 {
@@ -18,12 +18,52 @@ h2 {
     font-style: italic;
 }
 
-.wrapper img {
-    margin: 0 auto;
+.item-1, 
+.item-2, 
+.item-3 {
+    
+    display: block;
+
+    
+  
+
+	animation-duration: 20s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 }
 
-.wrapper h1 {
-    text-align: center;
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 25%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 25%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
+
+.wrapper img {
+    margin: 0 auto;
 }
 
 .wrapper {
@@ -34,6 +74,13 @@ h2 {
     vertical-align: middle;
     margin: 0 auto;
     padding-top: 200px;
+}
+
+@media (min-width:992px) {
+    .wrapper {
+        text-align: left;
+        margin-left: 20%;
+    }
 }
 
 
@@ -86,7 +133,6 @@ h2 {
     text-align: center;
 }
 
-
 .center {
     position: relative;
     left: 20%;
@@ -107,6 +153,7 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
     font-size: 4.5em;
 }
+
 .navbar-brand {
     float: left;
     min-height: 55px;
