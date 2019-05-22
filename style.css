@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon|Montserrat+Alternates|Open+Sans');
+
+body, html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #26334c;
+    overflow: auto;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+    font-style: italic;
+}
+
+.wrapper img {
+    margin: 0 auto;
+}
+
+.wrapper h1 {
+    text-align: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper {
+    vertical-align: middle;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+
+
+.bg { 
+
+    width: 100%;
+    
+  /* The image used */
+    background-image: url("GradientGoals1.png");
+
+  /* Full height */
+    height: 100%; 
+
+  /* Center and scale the image */
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-me { 
+    
+        width: 100%;
+        
+      /* The image used */
+        background-image: url("white minimal bg.jpeg");
+    
+      /* Full height */
+        height: 100%; 
+    
+      /* Center and scale the image */
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+
+.navbar{
+    margin: auto auto;
+    border-radius: 0;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,1));
+    background-color: rgba(255, 255, 255, 0);
+    color: #26334c;
+
+    font-size: 1.2em;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+.center {
+    position: relative;
+    left: 20%;
+    display: inline-block;
+}
+
+.head{
+    color: #26334c;
+    padding: 1% 0;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+.head h1 {
+    color: #1d6091;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 4.5em;
+}
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+    margin: 0;
+    position: absolute;
+    overflow: hidden;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #26334c;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
+    color: #1d6091;
+    background-color: #26334c; 
+}
+
+.navbar-inverse .navbar-nav li a {
+    color: #26334c;
+}
+
+.headshot {
+    margin: 0 auto;
+    border: 1px solid #d5d5d5;
+    filter: drop-shadow(0 0 15px #d5d5d5);
+}
+
+.jumbotron {
+    background: url('http://pollmappr.com/wp-content/uploads/2018/07/blue-background-designs-for-websites-free-repeat-pattern-with-a-blue-geometric-theme-web-design-template.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.jumbotron-2 {
+    /* background: url('GradientGoals1.png') no-repeat center right; */
+    background-size: cover;
+    background-position: bottom right;
+    height: 100%;
+}
+
+.container-fluid {
+    min-height: 100%;
+}
+
+.backdrop-1 {
+    background: url('https://cdn4.vectorstock.com/i/1000x1000/76/43/grey-modern-low-poly-background-vector-3817643.jpg');
+    background-size: cover;
+}
+
+
+
+
+
+.about-me p, .about-me h4 {
+    color: #26334c;
+}
+.about-me h2 {
+    /* color: #888551; */
+    color: #26334c;
+}
+
+.scroll-wrap {
+    white-space: nowrap; 
+    max-height: 40rem; 
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    width: auto;
+    align-items: flex-start;
+}
+
+.cardpic {
+    flex-shrink: 0 auto;
+    height: 30rem;
+}
+
+.card {
+    padding: 10px 10%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    background: #ffffff;
+    box-shadow:5px 5px #dfdfdf ;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.bio {
+    padding: 10px 10%;
+    margin: 10px 10px;
+    border-radius: 10px;
+    box-shadow:5px 5px #5c942867;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.description-box {
+    display: flex;
+    align-items: center;
+}
+
+.fade-in {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255,255,255,0));
+    background-position: top;
+}
+
+.fade-out {
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255,255,255,1));
+
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    flex: none;
+}
+
+.logo {
+    height: auto;
+    width: 35vw;
+    max-width: 200px;
+}
+
+.grow { 
+    transition: all .1s ease-in-out;
+}
+
+.grow:hover { 
+    transform: scale(3.5); 
+}
+
+.see-more {
+
+    background-size: 80rem;
+    background-position-y: center;
+    background-position-x: center;
+    transition: all .8s ease-in-out;
+    color: white;
+    max-width: 650px;
+    padding: auto 10%;    
+}
+
+.eng {
+    background-image: url('Engineer\ \(1\).png')
+}
+
+.ath {
+    background-image: url('Athlete.png')
+}
+
+.sty {
+    background-image: url('HairStylist.png')
+}
+
+.see-more:hover {
+    background-image: none;
+}
+
+.see-more h4:hover, .see-more p:hover {
+    color: #26334c;
+}
+
+.see-more h4, .see-more p {
+    color: transparent;
+}
+
+.see-more-text {
+    position: absolute;
+    bottom: 3px;
+}
+
+.go-away {
+    width: 100%;
+    position: absolute;
+    size: cover;
+}
+
+.go-away:hover {
+    opacity: 0;
+}
