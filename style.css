@@ -23,18 +23,16 @@ h2 {
 }
 
 .wrapper h1 {
-    text-align: center left;
-    margin-left: 20rem;
+    text-align: center;
 }
 
 .wrapper {
-    text-align: center left;
-    margin-left: 55rem;
+    text-align: center;
 }
 
 .wrapper {
     vertical-align: middle;
-    margin: 0;
+    margin: 0 auto;
     padding-top: 200px;
 }
 
@@ -60,7 +58,7 @@ h2 {
         width: 100%;
         
       /* The image used */
-        background-image: url("white minimal bg.jpeg");
+        background-image: url("white minimal.jpeg");
     
       /* Full height */
         height: 100%; 
@@ -156,7 +154,15 @@ h2 {
     background-size: cover;
 }
 
+.about-me {
 
+    background-color: white; 
+    /*background-image: url("Photographer_Edit.jpg");
+    background-size: cover;
+    background-position-x: center;
+    height: 100%; */
+    padding: 0px 35px;
+}
 
 
 
