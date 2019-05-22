@@ -48,7 +48,7 @@ h2 {
     height: 100%; 
 
   /* Center and scale the image */
-  background-position: bottom left;
+  background-position: bottom right;
   background-repeat: no-repeat;
   background-size: cover;
 }
