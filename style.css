@@ -9,7 +9,7 @@ body, html {
 
 body {
     font-family: 'Roboto Condensed', sans-serif;
-    color: #26334c;
+    color: black;
     overflow: hidden;
 }
 
@@ -17,52 +17,6 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
     font-style: italic;
 }
-
-/* .item-1, 
-.item-2, 
-.item-3 {
-    
-    display: block;
-
-    
-  
-
-	animation-duration: 20s;
-	animation-timing-function: ease-in-out;
-	animation-iteration-count: infinite;
-}
-
-.item-1{
-	animation-name: anim-1;
-}
-
-.item-2{
-	animation-name: anim-2;
-}
-
-.item-3{
-	animation-name: anim-3;
-}
-
-@keyframes anim-1 {
-	0%, 8.3% { left: -100%; opacity: 0; }
-  8.3%,25% { left: 25%; opacity: 1; }
-  33.33%, 100% { left: 110%; opacity: 0; }
-}
-
-@keyframes anim-2 {
-	0%, 33.33% { left: -100%; opacity: 0; }
-  41.63%, 58.29% { left: 25%; opacity: 1; }
-  66.66%, 100% { left: 110%; opacity: 0; }
-}
-
-@keyframes anim-3 {
-	0%, 66.66% { left: -100%; opacity: 0; }
-  74.96%, 91.62% { left: 25%; opacity: 1; }
-  100% { left: 110%; opacity: 0; }
-} */
-
-
 
 .wrapper img {
     margin: 0 auto;
@@ -75,31 +29,34 @@ h2 {
 .wrapper {
     vertical-align: middle;
     margin: 0 auto;
-    padding-top: 200px;
+    padding-top: 100px;
+    
 }
 
 @media (min-width:992px) {
     .wrapper {
         text-align: left;
         margin-left: 20%;
+        padding-top: 200px;
     }
 }
 
-
 .bg { 
-
-    width: 100%;
     
-  /* The image used */
-    background-image: url("GradSuitF.png");
+  width: 100%;
+  background-image: url("GradientGoals1.png");
+  height: 100%;
 
-  /* Full height */
-    height: 100%; 
-
-  /* Center and scale the image */
-  background-position: bottom right;
+  background-position: top 40px right -120px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width:992px) {
+    .bg {
+        background-position: bottom right;
+        background-image: url("GradSuitF.png");
+    }
 }
 
 .about-me { 
@@ -289,7 +246,7 @@ h2 {
 }
 
 .grow:hover { 
-    transform: scale(3.5); 
+    transform: scale(1.2); 
 }
 
 .see-more {
