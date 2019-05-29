@@ -211,12 +211,11 @@ h2 {
 
 .card {
     padding: 5px 5px;
-    margin: 5px 5px;
+    margin: 10px 5px;
     border-radius: 10px;
     background: #ffffff;
     box-shadow:5px 5px #dfdfdf ;
     max-width: 95vw;
-    margin: 10px auto;
 
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: left;
@@ -253,13 +252,12 @@ h2 {
 @media (min-width: 768px) { 
 
     .card {
-        padding: 10px 10%;
-        margin: 10px 10px;
+        padding: 10px 5%;
+        margin: 10vh 8%;
         border-radius: 10px;
         background: #ffffff;
         box-shadow:5px 5px #dfdfdf ;
         max-width: 80vw;
-        margin: 20px auto;
     
         font-family: 'Montserrat Alternates', sans-serif;
         text-align: left;
