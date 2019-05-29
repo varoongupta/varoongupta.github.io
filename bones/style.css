@@ -18,6 +18,11 @@ h2 {
     font-style: italic;
 }
 
+.home {
+    font-family: 'Fjalla One', sans-serif;
+    font-style: italic;
+}
+
 .wrapper img {
     margin: 0 auto;
 }
@@ -32,7 +37,7 @@ h2 {
     padding-top: 100px;
 }
 
-@media (min-width:600px) {
+@media (min-width:576px) {
     .wrapper {
         text-align: left;
         margin-left: 20%;
@@ -59,7 +64,7 @@ h2 {
   background-size: cover;
 }
 
-@media (min-width:600px) {
+@media (min-width:576px) {
     .bg {
         background-position: bottom right;
         background-image: url("GradSuitF.png");
@@ -205,13 +210,13 @@ h2 {
 }
 
 .card {
-    padding: 10px 10%;
-    margin: 10px 10px;
+    padding: 5px 5px;
+    margin: 5px 5px;
     border-radius: 10px;
     background: #ffffff;
     box-shadow:5px 5px #dfdfdf ;
-    max-width: 80vw;
-    margin: 20px auto;
+    max-width: 95vw;
+    margin: 10px auto;
 
     font-family: 'Montserrat Alternates', sans-serif;
     text-align: left;
@@ -220,26 +225,65 @@ h2 {
 
 .card-text {
     letter-spacing: 0.08rem;
-    line-height: 24pt;
+    line-height: 16pt;
+    font-size: 0.83em;
 }
 
-.bio {
-    padding: 10px 10%;
-    margin: 10px 10px;
-    border-radius: 10px;
-    /* box-shadow:5px 5px #5c942867; */
-    box-shadow:5px 5px #dfdfdf;
-    max-width: 80vw;
-    margin: 20px auto;
-}
-
-.bio h3 {
+.card h3 {
     text-align: center;
 }
 
 .description-box {
-    display: flex;
-    align-items: center;
+    display: block;
+}
+
+
+@media (min-width: 576px) { 
+
+    .description-box {
+        display: flex;
+        align-items: center;
+    }
+
+    
+    
+}
+
+
+@media (min-width: 768px) { 
+
+    .card {
+        padding: 10px 10%;
+        margin: 10px 10px;
+        border-radius: 10px;
+        background: #ffffff;
+        box-shadow:5px 5px #dfdfdf ;
+        max-width: 80vw;
+        margin: 20px auto;
+    
+        font-family: 'Montserrat Alternates', sans-serif;
+        text-align: left;
+    
+    }
+
+    .card-text {
+        letter-spacing: 0.08rem;
+        line-height: 24pt;
+        font-size: 1em;
+    }
+    .card-text p {
+        line-height: 16pt;
+    }
+    
+}
+
+@media (min-width: 992px) { 
+
+ }
+
+
+@media (min-width: 1200px) { 
+    
 }
 
 .fade-in {
@@ -320,4 +364,8 @@ h2 {
 
 .go-away:hover {
     opacity: 0;
+}
+
+.picture {
+    height: 100%;
 }
